@@ -1,0 +1,41 @@
+nav.nav-principal ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 0 56px;
+        list-style-type: none;
+        li a{
+            text-decoration: none;
+            color: $blue;
+            font-size: 18px;
+            &:hover{
+                color: #A9D6CB;
+                transition-duration: 0.3s
+                
+            }
+        }
+        
+    }
+aside{
+    display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 60px;
+        .shop a{
+            padding: 20px;
+            height: 32px;
+            width: 32px;
+        }
+        
+        
+        .login a{
+            padding: 20px;
+            width: 150px;
+            
+            
+        }
+        a.link{
+            color: $blue;
+        }
+
+}

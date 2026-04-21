@@ -1,0 +1,28 @@
+body{
+    background-color: #FAF8F5;
+    margin: 0;
+    
+    
+    &::before{
+        content: "";
+        width: 35%;
+        height: 100%;
+        background-color: #A9D6CB;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: -1;
+        
+
+    }
+    &::before{
+        background-image: url('../img/spa.svg');
+        background-repeat: no-repeat;
+        z-index: -1;
+        background-position: left -80px top 50px;
+        
+        
+    }
+    
+        
+}
