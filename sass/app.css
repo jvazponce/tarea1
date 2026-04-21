@@ -26,7 +26,7 @@ main {
   background-position: left 450px top -100px;
   background-size: 84%;
   padding: 20px 160px;
-  padding-bottom: 250px;
+  padding-bottom: 185px;
 }
 main::before {
   content: "";
@@ -255,4 +255,4 @@ body {
   overflow-x: hidden;
   font-size: 16px;
   margin-bottom: 0;
-}/*# sourceMappingURL=app.css.map */
+}
